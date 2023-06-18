@@ -1,0 +1,194 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  article {
+    background-color: #e2a0ce;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #706464;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  p{
+    font-family: cursive;
+  }
+  
+  .blog-image{
+    height: 300px;
+    width: 500px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .blog-image {
+      width: 100%;
+      height: auto;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query for medium-sized screens */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .blog-image {
+      width: 70%;
+      height: auto;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  
+  /* Default styles */
+.blog-image {
+  height: 300px;
+  width: 500px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+  .blog-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Default styles */
+.blog-image {
+  height: 300px;
+  width: 500px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+  .blog-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .blog-image {
+    width: 70%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+  .blog-image {
+    width: 50%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+}
+
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+.blog-image:hover {
+  opacity: 0.8; 
+  transition: opacity 0.3s ease; 
+}
+
+
+
+
